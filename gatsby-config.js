@@ -1,3 +1,5 @@
+const path = require("path")
+
 module.exports = {
   siteMetadata: {
     title: `Gatsby Starter Blog`,
@@ -31,7 +33,7 @@ module.exports = {
       options: {
         plugins: [
           {
-            resolve: `gatsby-remark-images`,
+            resolve: `gatsby-remark-low-tech-images`,
             options: {
               maxWidth: 590,
             },
@@ -49,11 +51,11 @@ module.exports = {
       },
     },
     `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-plugin-sharp`,
       options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
+        useMozJpeg: true,
+        stripMetadata: true,
       },
     },
     `gatsby-plugin-feed`,
@@ -76,8 +78,7 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`,
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    `gatsby-plugin-no-javascript`,
+    `gatsby-plugin-offline`,
   ],
 }
