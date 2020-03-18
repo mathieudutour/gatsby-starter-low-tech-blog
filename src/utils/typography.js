@@ -6,6 +6,9 @@ Wordpress2016.overrideThemeStyles = () => {
     "a.gatsby-resp-image-link": {
       boxShadow: `none`,
     },
+    img: {
+      filter: "sepia(1) hue-rotate(170deg)",
+    },
   }
 }
 

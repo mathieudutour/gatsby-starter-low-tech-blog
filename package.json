@@ -1,11 +1,11 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "gatsby-starter-low-tech-blog",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "description": "A starter for a low tech blog powered by Gatsby and Markdown",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Mathieu Dutour <mathieu@dutour.me>",
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/mathieudutour/gatsby-starter-low-tech-blog/issues"
   },
   "dependencies": {
     "gatsby": "^2.19.45",
@@ -36,7 +36,7 @@
   "devDependencies": {
     "prettier": "^1.19.1"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "homepage": "https://github.com/mathieudutour/gatsby-starter-low-tech-blog#readme",
   "keywords": [
     "gatsby"
   ],
@@ -44,7 +44,7 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+    "url": "git+https://github.com/mathieudutour/gatsby-starter-low-tech-blog.git"
   },
   "scripts": {
     "build": "gatsby build",

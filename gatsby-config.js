@@ -2,15 +2,15 @@ const path = require("path")
 
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Gatsby Starter Low Tech Blog`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Mathieu Dutour`,
+      summary: `who builds useful things.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    description: `A starter blog demonstrating what Gatsby can do with the lowest carbon footprint.`,
+    siteUrl: `https://gatsby-starter-low-tech-blog.netlify.com/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `mathieudutour`,
     },
   },
   plugins: [
@@ -56,13 +56,14 @@ module.exports = {
       options: {
         useMozJpeg: true,
         stripMetadata: true,
+        defaultQuality: 30,
       },
     },
     `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
+        name: `Gatsby Starter Low Tech Blog`,
         short_name: `GatsbyJS`,
         start_url: `/`,
         background_color: `#ffffff`,
