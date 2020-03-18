@@ -21,6 +21,7 @@ Obviously this website is _really_ simple, but the techniques used to make it gr
 
 For more information, check out:
 
+- [Low Tech Magazine](https://solar.lowtechmagazine.com/)
 - [Website Energy Efficiency](https://www.wholegraindigital.com/blog/website-energy-efficiency/)
 - [The Green Web Foundation](https://www.thegreenwebfoundation.org/)
 - [Offset Earth](https://offset.earth)
