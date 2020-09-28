@@ -14,7 +14,7 @@ This blog only [produces `0.37kg` of CO2 per year](https://www.websitecarbon.com
 
 - no JavaScript. This website is static, it does not require any JavaScript to be displayed. This make every pages a lot lighter.
 - no 3rd party tracking, no ads.
-- every images is heavily compressed and black and white. This reduces the size of the images by as much as 80%.
+- every image is heavily compressed and black and white. This reduces the size of the images by as much as 80%.
 - local cache. Once a user has visited the website, the pages are cached locally.
 
 Obviously this website is _really_ simple, but the techniques used to make it greener can be generalized.
